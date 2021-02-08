@@ -1,0 +1,33 @@
+.Navigate {
+  width: 100vw;
+  background-color: #fad64e !important;
+  font-size: 1.2rem;
+  position: fixed !important;
+  top: 0;
+  left: -5px;
+}
+
+.Brand {
+  font-family: "Montserrat", sans-serif;
+  color: #3bbeb5 !important;
+  font-size: 2rem !important;
+}
+
+.mobileNav {
+  display: none !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .Brand {
+    font-size: 1rem !important;
+  }
+
+  .mobileNav {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+
+  .webNav {
+    display: none !important;
+  }
+}
