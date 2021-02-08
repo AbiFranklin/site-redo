@@ -1,6 +1,6 @@
 import Navigate from './Navigate'
 import NavigateMobile from './NavigateMobile'
-import More from './More'
+import Hero from './Hero'
 
 const App = (props) => {
 
@@ -8,7 +8,7 @@ const App = (props) => {
     <div>
       <Navigate />
       <NavigateMobile />
-      <More />
+      <Hero />
     </div>
   );
 }

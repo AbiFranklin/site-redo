@@ -15,10 +15,13 @@ const NavigateMobile = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="#">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="#">Portfolio</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
